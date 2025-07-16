@@ -21,6 +21,7 @@ const Landing: React.FC = () => {
             <Button title="Small" size="small" onClick={handleClick} />
             <Button title="Medium" size="medium" onClick={handleClick} />
             <Button title="Large" size="large" onClick={handleClick} />
+            <Button title="Full" size="full" onClick={handleClick} />
           </div>
           
           {/* Shape Variations */}
@@ -28,6 +29,7 @@ const Landing: React.FC = () => {
             <h3 className="font-medium">Shapes:</h3>
             <Button title="Rounded Small" shape="rounded-sm" />
             <Button title="Rounded Medium" shape="rounded-md" />
+	    <Button title="Rounded Large" shape="rounded-lg" />
             <Button title="Rounded Full" shape="rounded-full" />
           </div>
           
