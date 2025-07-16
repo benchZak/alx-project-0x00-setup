@@ -4,6 +4,7 @@ const Button: React.FC<ButtonProps> = ({
   title,
   size = 'medium',
   shape = 'rounded-md',
+  styles = '',
   className = '',
   onClick
 }) => {
@@ -20,7 +21,8 @@ const Button: React.FC<ButtonProps> = ({
       className={`
         ${sizeClasses[size]}
         ${shape}
-        ${className}
+	${styles}
+	${className}
         bg-blue-500 hover:bg-blue-600 
         text-white font-medium
         transition-colors duration-200

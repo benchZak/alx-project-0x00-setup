@@ -37,7 +37,8 @@ const Landing: React.FC = () => {
             <Button 
               title="Small & Full" 
               size="small" 
-              shape="rounded-full" 
+              shape="rounded-full"
+	      styles="bg-purple-500 hover:bg-purple-600"  // Using styles prop
             />
             <Button 
               title="Large & Sharp" 
